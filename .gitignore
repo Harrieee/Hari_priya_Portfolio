@@ -1,1 +1,48 @@
+# OS/System Files
+.DS_Store
+Thumbs.db
+*.swp
+__MACOSX/
+
+# VSCode/Editor Configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node Modules (in case you use npm tools later)
+node_modules/
+
+# Log files
+*.log
+
+# Build or Dist folders (optional)
+build/
+dist/
+
+# Environment variables (if used in future)
+.env
+.env.local
+.env.*.local
+
+# Cache / Temp files
+.cache/
+.tmp/
+*.tmp
+*.bak
+
+# Dependency files (if bundlers used later)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Screenshots or exported assets (optional to ignore)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Netlify settings (optional to keep)
+# netlify.toml
 
