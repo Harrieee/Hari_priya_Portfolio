@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #101010;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.content{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #240c3a;
+
+    font-size: xx-large;
+}
+
+header {
+    padding: 50px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #240c3a;
+    font-size: x-large;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #06000b;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.section h2 {
+    font-size: 3em;
+    color: #0f001d;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    font-size: 2 em;
+    color: #290845;
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+    gap: 20px; /* Space between items */
+    justify-items: center; /* Centers the content */
+    margin-top: 20px;
+}
+
+.project-item {
+    width: 100%;
+    max-width: 300px; /* Ensures uniform sizing */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.parallax {
+    background: url('https://source.unsplash.com/1600x900/?technology,abstract') no-repeat center center fixed;
+    background-size: cover;
+    height: 10vh;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #7a0adc, #b74ddb);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
